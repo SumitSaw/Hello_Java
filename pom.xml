@@ -6,12 +6,12 @@
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Demo Maven Webapp</name>
-  <url>https://github.com/SumitSaw/Hello_Java</url>
+  <url>https://github.com/priya789/Hello_Java</url>
 
-  <properties>
-<database.url>jdbc:mysql://devopsflywaypoc.cvwa0v1dnfoc.us-west-2.rds.amazonaws.com:3306/DataFly</database.url>
+<properties>
+<database.url>jdbc:oracle:thin:@//flywayoracledb.csuzw1huyojx.ap-south-1.rds.amazonaws.com:1521/DataFly</database.url>
 <database.user>admin</database.user>
-<database.password>admin123</database.password>
+<database.password>flywayoracledb</database.password>
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
 
@@ -35,7 +35,7 @@
 	<artifactId>flyway-maven-plugin</artifactId>
 	<version>6.0.3</version>
 	<configuration>
-	<sqlMigrationSeparator>__</sqlMigrationSeparator>
+	<oracleMigrationSeparator>__</oracleMigrationSeparator>
 	<locations>
 	<location>filesystem:src/main/resources/migrations/db</location>
 	</locations>
@@ -44,13 +44,13 @@
 	<password>${database.password}</password>
 	</configuration>
 	<dependencies>
-	<!-- Mysql -->
+	<!-- Oracle -->
 	<dependency>
-	<groupId>mysql</groupId>
-	<artifactId>mysql-connector-java</artifactId>
+	<groupId>oracle</groupId>
+	<artifactId>oracle-connector-java</artifactId>
 	<version>8.0.17</version>
 	</dependency>
-	<!-- /Mysql -->
+	<!-- /Oracle -->
 	</dependencies>
 
       </plugin>
