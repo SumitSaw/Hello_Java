@@ -50,8 +50,6 @@
 		<artifactId>ojdbc6</artifactId>
 		<version>11.2.0.4</version>
 	</dependency>
-	
-	</dependency>
 	<!-- /Oracle -->
 	</dependencies>
 
