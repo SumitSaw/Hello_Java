@@ -46,9 +46,9 @@
 	<dependencies>
 	<!-- Oracle -->	
 	<dependency>
-		<groupId>com.oracle</groupId>
-		<artifactId>ojdbc6</artifactId>
-		<version>11.2.0.4</version>
+		<groupId>com.oracle.jdbc</groupId>
+		<artifactId>ojdbc8</artifactId>
+		<version>19.3.0.0</version>
 	</dependency>
 	<!-- /Oracle -->
 	</dependencies>
