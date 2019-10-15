@@ -44,11 +44,11 @@
 	<password>${database.password}</password>
 	</configuration>
 	<dependencies>
-	<!-- Oracle -->
+	<!-- Oracle -->	
 	<dependency>
-	<groupId>oracle</groupId>
-	<artifactId>oracle-connector-java</artifactId>
-	<version>10.2.0.4.0</version>
+		<groupId>com.oracle</groupId>
+		<artifactId>ojdbc8</artifactId>
+		<version>19.3</version>
 	</dependency>
 	<!-- /Oracle -->
 	</dependencies>
