@@ -30,7 +30,7 @@
 -->
 
 
-	<!--
+
        <groupId>org.flywaydb</groupId>
 	<artifactId>flyway-maven-plugin</artifactId>
 	<version>6.0.3</version>
@@ -44,7 +44,7 @@
 	<user>${database.user}</user>
 	<password>${database.password}</password>
 	</configuration>
--->
+	      
 	<dependencies>
 	<!-- Oracle -->	
 	<dependency>
