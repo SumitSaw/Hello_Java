@@ -38,7 +38,7 @@
 	<configuration>
 	<oracleMigrationSeparator>__</oracleMigrationSeparator>
 	<locations>
-	<location>src/main/resources/migrations/db</location>
+	<location>filesystem:src/main/resources/migrations/db</location>
 	</locations>
 	<url>${database.url}</url>
 	<user>${database.user}</user>
