@@ -38,7 +38,7 @@
 	<configuration>
 	<oracleMigrationSeparator>__</oracleMigrationSeparator>
 	<locations>
-	<location>filesystem:src/main/resources/migrations/db</location>
+	<location>src/main/resources/migrations/db</location>
 	</locations>
 	<url>${database.url}</url>
 	<user>${database.user}</user>
@@ -52,7 +52,7 @@
 		<artifactId>ojdbc</artifactId>
 		<version>8</version>
 		<scope>system</scope>
-		<systemPath>src/main/ojdbc8.jar</systemPath>
+		<systemPath>${project.basedir}/src/main/ojdbc8.jar</systemPath>
 	</dependency>
 	<!-- /Oracle -->
 	</dependencies>
