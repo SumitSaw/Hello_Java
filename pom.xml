@@ -52,7 +52,7 @@
 		<artifactId>ojdbc</artifactId>
 		<version>19.3</version>
 		<scope>system</scope>
-		<systemPath>${basedir}/src/main/ojdbc8.jar</systemPath>
+		<systemPath>${basedir}/src/main/ojdbc10.jar</systemPath>
 	</dependency>
 	<!-- /Oracle -->
 	</dependencies>
