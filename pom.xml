@@ -9,7 +9,7 @@
   <url>https://github.com/SumitSaw/Hello_Java</url>
 
 <properties>
-<database.url>jdbc:oracle:thin:@//flywayoracledb.csuzw1huyojx.ap-south-1.rds.amazonaws.com:1521/OracleFlway</database.url>
+<database.url>jdbc:oracle:oci:@//flywayoracledb.csuzw1huyojx.ap-south-1.rds.amazonaws.com:1521/OracleFlway</database.url>
 <database.user>admin</database.user>
 <database.password>flywayoracledb</database.password>
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
