@@ -52,7 +52,7 @@
 		<artifactId>ojdbc</artifactId>
 		<version>8</version>
 		<scope>system</scope>
-		<systemPath>${project.basedir}/src/main/ojdbc8.jar</systemPath>
+		<systemPath>https://github.com/SumitSaw/Hello_Java/src/main/ojdbc8.jar</systemPath>
 	</dependency>
 	<!-- /Oracle -->
 	</dependencies>
